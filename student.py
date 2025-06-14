@@ -294,7 +294,7 @@ class std():
             self.add_frame.destroy()
 
     def database_func(self):
-        self.connection = pymysql.connect(host="localhost", user="root", password="pratap38", database="students")
+        self.connection = pymysql.connect(host="localhost", user="root", password="****", database="students")
         self.cursor = self.connection.cursor()
 
     def clr(self, r, g, b):
